@@ -1,0 +1,30 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 600px;
+    height: 100vh;
+    margin: auto;
+    border: 1px solid black;
+}
+div#cabecalho{
+    display:block;
+    margin: auto;
+    background-color: red;
+}
+header{
+    text-align: center;
+    line-height: 40px; 
+}
+header p{
+    color: white;
+    margin-left: 490px;
+    margin-top: 10px;
+}
+header p:hover{
+    font-size:15pt;
+    transition: 0.5s;
+}
